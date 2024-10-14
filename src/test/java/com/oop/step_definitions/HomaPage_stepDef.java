@@ -11,7 +11,7 @@ public class HomaPage_stepDef {
 
         //visit home page
         Driver.getDriver().get("https://www.google.com/");
-        Assert.assertEquals("https://www.google.com/", Driver.getDriver().getCurrentUrl());
+        Assert.assertEquals("https://www.google", Driver.getDriver().getCurrentUrl());
 
     }
 }
