@@ -1,0 +1,7 @@
+-------------------------------------------------------------------------------
+Test set: com.oop.runners.CukesRunner
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 10.571 s <<< FAILURE! - in com.oop.runners.CukesRunner
+Checking url(Visit page)  Time elapsed: 9.16 s  <<< FAILURE!
+java.lang.AssertionError
+
