@@ -16,7 +16,7 @@ import org.junit.runner.RunWith;
 
         features = "src/test/resources/features",
         glue = "com/oop/step_definitions",
-        dryRun = true,
+        dryRun = false,
         tags = "@driver",
         monochrome = true
 )
