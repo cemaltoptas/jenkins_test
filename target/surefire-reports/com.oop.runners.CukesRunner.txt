@@ -1,7 +1,7 @@
 -------------------------------------------------------------------------------
 Test set: com.oop.runners.CukesRunner
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 10.571 s <<< FAILURE! - in com.oop.runners.CukesRunner
-Checking url(Visit page)  Time elapsed: 9.16 s  <<< FAILURE!
-java.lang.AssertionError
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 6.51 s <<< FAILURE! - in com.oop.runners.CukesRunner
+Checking url(Visit page)  Time elapsed: 5.036 s  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<https://[google.com]> but was:<https://[www.google.com/]>
 
