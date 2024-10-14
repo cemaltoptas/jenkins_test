@@ -1,1 +1,1 @@
-[{"line":1,"elements":[{"start_timestamp":"2024-10-14T15:34:11.324Z","line":4,"name":"Checking url","description":"","id":"visit-page;checking-url","type":"scenario","keyword":"Scenario","steps":[{"result":{"duration":9727606700,"status":"passed"},"line":5,"name":"the user is on home page","match":{"location":"com.oop.step_definitions.HomaPage_stepDef.theUserIsOnHomePage()"},"keyword":"Given "}],"tags":[{"name":"@driver"}]}],"name":"Visit page","description":"","id":"visit-page","keyword":"Feature","uri":"file:src/test/resources/features/visitPage.feature","tags":[]}]
+[]

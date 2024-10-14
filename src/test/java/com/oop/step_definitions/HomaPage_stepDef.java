@@ -6,12 +6,12 @@ import org.junit.Assert;
 
 
 public class HomaPage_stepDef {
+
     @Given("the user is on home page")
     public void theUserIsOnHomePage() {
 
         //visit home page
         Driver.getDriver().get("https://www.google.com/");
-        Assert.assertEquals("https://www.google", Driver.getDriver().getCurrentUrl());
-
+        Assert.assertEquals("Google", Driver.getDriver().getTitle());
     }
 }

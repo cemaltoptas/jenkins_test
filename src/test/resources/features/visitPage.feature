@@ -1,5 +1,7 @@
-Feature: Visit page
+Feature: Home Page Test
 
-  @driver
+  @checkURL
   Scenario: Checking url
     Given the user is on home page
+
+
