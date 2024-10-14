@@ -10,8 +10,8 @@ public class HomaPage_stepDef {
     public void theUserIsOnHomePage() {
 
         //visit home page
-        Driver.getDriver().get("https://google.com/");
-        Assert.assertEquals("https://google.com/", Driver.getDriver().getCurrentUrl());
+        Driver.getDriver().get("https://www.google.com/");
+        Assert.assertEquals("https://www.google.com/", Driver.getDriver().getCurrentUrl());
 
     }
 }
