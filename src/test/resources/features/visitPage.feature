@@ -1,6 +1,6 @@
 Feature: Home Page Test
 
-  @checkPageTitle
+  @wip
   Scenario: Checking Page Title
     Given the user is on home page
 
