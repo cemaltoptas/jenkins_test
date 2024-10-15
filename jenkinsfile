@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git 'https://github.com/cemaltoptas/jenkins_test.git'
+                git branch: 'main', url: 'https://github.com/cemaltoptas/jenkins_test.git'
             }
         }
         stage('Build') {
