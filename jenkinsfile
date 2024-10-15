@@ -1,22 +1,18 @@
 ﻿pipeline {
     agent any
-
     stages {
         stage('Checkout') {
             steps {
-                // Kodları repository'den çekme
                 git 'https://github.com/cemaltoptas/jenkins_test.git'
             }
         }
         stage('Build') {
             steps {
-                // Maven ile proje paketleme ve derleme
-                bat 'mvn clean package' // Windows ortamında çalıştırıyorsanız 'bat', Linux/Unix için 'sh'
+                bat 'mvn clean package'
             }
         }
         stage('Test') {
             steps {
-                // Maven ile testleri çalıştırma
                 bat 'mvn test'
             }
         }
