@@ -6,11 +6,11 @@ pipeline {
                 git branch: 'main', url: 'https://github.com/cemaltoptas/jenkins_test.git'
             }
         }
-        stage('Build & Test') { // Combined stage for efficiency
+        stage('Build & Test') {
             steps {
-                sh 'mvn clean test' // Run clean and test together
+                sh 'mvn clean test' // Assuming nohup is not needed
             }
-            post { // Run cucumber reporting after tests
+            post {
                 success {
                     sh 'mvn net.masterthought:maven-cucumber-reporting:generate'
                 }
